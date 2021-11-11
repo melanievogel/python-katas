@@ -1,2 +1,2 @@
-# python-katas
-My solutions to Python Katas on Codwars
+# Script-katas
+My solutions to Scripting Katas on Codwars
