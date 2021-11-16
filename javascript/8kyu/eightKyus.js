@@ -81,3 +81,7 @@ function expressionMatter(a, b, c) {
 function even_or_odd(number) {
     return number % 2 === 0 ? "Even" : "Odd";
 }
+
+function opposite(number) {
+    return number < 0 ? Math.abs(number) : number * -1;
+}

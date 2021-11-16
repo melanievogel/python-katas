@@ -158,3 +158,9 @@ describe("Sample tests", () => {
         assert.strictEqual(even_or_odd(0), "Even");
     });
 });
+
+describe("Tests", () => {
+    it("test", () => {
+        Test.assertEquals(opposite(1), -1,)
+    });
+});
