@@ -66,4 +66,14 @@ function move(position, roll) {
 function addFive(num) {
     var total = num + 5
     return total
-  }
+}
+
+function expressionMatter(a, b, c) {
+    var resultA = a * (b + c);
+    var resultB = a * b * c;
+    var resultC = a + b * c;
+    var resultD = (a + b) * c;
+    var resultE = a + b + c;
+    var result = Math.max(resultA, resultB, resultC, resultD, resultE);
+    return result;
+}
