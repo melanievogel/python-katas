@@ -58,3 +58,7 @@ function makeNegative(num) {
 function multiply(a, b) {
     return a * b;
 }
+
+function move(position, roll) {
+    return roll * 2 + position;
+}
