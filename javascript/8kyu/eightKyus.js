@@ -77,3 +77,7 @@ function expressionMatter(a, b, c) {
     var result = Math.max(resultA, resultB, resultC, resultD, resultE);
     return result;
 }
+
+function even_or_odd(number) {
+    return number % 2 === 0 ? "Even" : "Odd";
+}
