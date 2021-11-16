@@ -1,3 +1,14 @@
+function findLongest(str) {
+    var spl = str.split(" ");
+    var longest = 0;
+    for (var i = 0; i < spl.length; i++) {
+        if (spl[i].length > longest) {
+            longest = spl[i].length
+        }
+    }
+    return longest;
+}
+
 function gooseFilter(birds) {
     var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
     var result = [];
@@ -38,4 +49,8 @@ function DNAtoRNA(dna) {
         }
     }
     return x;
+}
+
+function makeNegative(num) {
+    return num >= 0 ? num * -1 : num
 }
