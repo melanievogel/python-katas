@@ -54,3 +54,7 @@ function DNAtoRNA(dna) {
 function makeNegative(num) {
     return num >= 0 ? num * -1 : num
 }
+
+function multiply(a, b) {
+    return a * b;
+}

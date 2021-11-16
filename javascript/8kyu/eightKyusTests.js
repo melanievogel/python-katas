@@ -81,3 +81,8 @@ describe("Tests", () => {
     });
 });
 
+describe("Tests", () => {
+    it("test", () => {
+        Test.assertEquals(multiply(2, 3), 6);
+    });
+});
