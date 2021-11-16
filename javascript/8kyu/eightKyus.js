@@ -62,3 +62,8 @@ function multiply(a, b) {
 function move(position, roll) {
     return roll * 2 + position;
 }
+
+function addFive(num) {
+    var total = num + 5
+    return total
+  }
