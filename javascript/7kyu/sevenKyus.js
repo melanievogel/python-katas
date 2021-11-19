@@ -1,3 +1,16 @@
+/**
+ * 6 falsy values in JS:
+ * 
+ * - 0
+ * - null
+ * - NaN
+ * - ""
+ * - undefined
+ * - false
+ * 
+ * --> !variable
+ */
+
 function min(a, b) {
     if (a < b) {
         if (a === null) {
@@ -28,3 +41,5 @@ function min(a, b) {
 
     return (a < b) ? a : b;
 }
+
+
