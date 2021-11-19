@@ -177,3 +177,4 @@ describe("Basic tests", () => {
         assert.strictEqual(lovefunc(0, 0), false)
     });
 });
+
