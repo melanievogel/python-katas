@@ -16,3 +16,16 @@ describe("Tests", () => {
         Test.assertEquals(mygcd(1, 1), 1)
     });
 });
+
+
+const chai = require("chai");
+const assert = chai.assert;
+chai.config.truncateThreshold = 0;
+
+describe("Bumps in the Road", () => {
+    it("Testing for fixed tests", () => {
+        assert.strictEqual(bump("n"), "Woohoo!");
+        assert.strictEqual(bump("_nnnnnnn_n__n______nn__nn_nnn"), "Car Dead");
+        assert.strictEqual(bump("______n___n_"), "Woohoo!");
+    });
+});

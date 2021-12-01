@@ -69,3 +69,16 @@ function mygcd(x, y) {
     return x
 }
 
+function bump(x) {
+    if (x.length > 1) {
+        var numberOfNs = x.split('').filter(a => a === 'n').length
+        var numberOf_s = x.split('').filter(a => a === '_').length
+        if (numberOfNs > 15) {
+            return "Car Dead"
+        }
+        if (numberOfNs <= 15) {
+            return "Woohoo!"
+        }
+    }
+    return "Woohoo!"
+}
