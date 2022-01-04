@@ -82,3 +82,15 @@ function bump(x) {
     }
     return "Woohoo!"
 }
+
+function nthChar(words) {
+    if (words.length > 0) {
+        var result = '';
+        for (var i = 0; i < words.length; i++) {
+            result += words[i][i];
+        }
+        return result;
+    }
+
+    return '';
+}

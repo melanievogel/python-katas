@@ -29,3 +29,12 @@ describe("Bumps in the Road", () => {
         assert.strictEqual(bump("______n___n_"), "Woohoo!");
     });
 });
+
+const { assert } = require("chai")
+
+describe("Basic tests", () => {
+    it("Testing for fixed tests", () => {
+        assert.strictEqual(nthChar([]), '');
+        assert.strictEqual(nthChar(['yoda', 'best', 'has']), 'yes');
+    })
+})
