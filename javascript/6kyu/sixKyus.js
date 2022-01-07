@@ -1,5 +1,4 @@
-
-module.exports = function toCamelCase(str) {
+function toCamelCase(str) {
   var result = '';
 
   if (str == '') {
@@ -21,4 +20,8 @@ module.exports = function toCamelCase(str) {
 
   return result;
 
+}
+
+module.exports = {
+  toCamelCase,
 }
